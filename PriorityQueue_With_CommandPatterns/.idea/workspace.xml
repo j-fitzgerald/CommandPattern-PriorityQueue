@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4914e554-1f88-42a9-a571-2e1f99cc33c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/Commands/AddItemCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/Commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/Commands/CommandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/Commands/CommandResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/Commands/PluggableCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/Commands/PollItemCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/Commands/RemoveItemCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/Commands/ReprioritizeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/Commands/UndoableCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/TCommands/TCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/TCommands/TCommandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/TCommands/TCommandResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/TCommands/TPollCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/TCommands/TReprioritizeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2.2/src/test/PriorityQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/jsfPriorityQueue/src/main/java/jsf/Commands/AddItemCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/jsfPriorityQueue/src/main/java/jsf/Commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/jsfPriorityQueue/src/main/java/jsf/Commands/CommandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/jsfPriorityQueue/src/main/java/jsf/Commands/CommandResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/jsfPriorityQueue/src/main/java/jsf/Commands/PluggableCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/jsfPriorityQueue/src/main/java/jsf/Commands/PollItemCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/jsfPriorityQueue/src/main/java/jsf/Commands/RemoveItemCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/jsfPriorityQueue/src/main/java/jsf/Commands/ReprioritizeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/jsfPriorityQueue/src/main/java/jsf/Commands/UndoableCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/jsfPriorityQueue/src/main/java/jsf/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/jsfPriorityQueue/src/main/java/jsf/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/jsfPriorityQueue/src/main/java/jsf/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_Maven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jsf/Commands/AddCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jsf/Commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jsf/Commands/CommandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jsf/Commands/CommandResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jsf/Commands/PollCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jsf/Commands/RemoveCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jsf/Commands/ReprioritizeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jsf/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jsf/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RealTests/BasicMethodsTest/PriorityQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RealTests/BasicMethodsTest/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RealTests/CommandTests/CommandTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RealTests/PriorityQueueTest/EmptyQueueTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RealTests/PriorityQueueTest/LargeQueueTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RealTests/PriorityQueueTest/SetupTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTheTests/TestCommandTests/TestCommandTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestEmptyQueueTestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestLargeQueueTestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestSetupTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestSingleItemQueueTestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MaxPriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/Assignment1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/Assignment1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/main/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/main/PriorityQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/main/PriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/main/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/test/BasicClassMethodsTests/PriorityQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/test/BasicClassMethodsTests/StudentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/test/PriorityQueueTests/DuplicatesQueueTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/test/PriorityQueueTests/EmptyQueueTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/test/PriorityQueueTests/LargeQueueTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/test/PriorityQueueTests/SetupTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/test/PriorityQueueTests/SingleItemQueueTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/test/PriorityQueueTests/TwoItemQueueTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/test/TestPriorityQueueTest/TestDuplicateTestCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/test/TestPriorityQueueTest/TestEmptyQueueTestCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/test/TestPriorityQueueTest/TestLargeQueueTestCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/test/TestPriorityQueueTest/TestSetupTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/test/TestPriorityQueueTest/TestSingleItemQueueTestCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment1/test/TestPriorityQueueTest/TestTwoItemQueueTestCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/test/BasicClassMethodsTests/PriorityQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/test/BasicClassMethodsTests/StudentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/test/PriorityQueueTests/DuplicatesQueueTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/test/PriorityQueueTests/EmptyQueueTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/test/PriorityQueueTests/LargeQueueTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/test/PriorityQueueTests/SetupTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/test/PriorityQueueTests/TwoItemQueueTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/test/TestPriorityQueueTest/TestDuplicateTestCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/test/TestPriorityQueueTest/TestEmptyQueueTestCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/test/TestPriorityQueueTest/TestLargeQueueTestCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/test/TestPriorityQueueTest/TestSetupTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/test/TestPriorityQueueTest/TestSingleItemQueueTestCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/test/TestPriorityQueueTest/TestTwoItemQueueTestCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/main/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/main/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/MaxPriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/main/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2.2/src/main/java/jsf/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/test/PriorityQueueTests/SingleItemQueueTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RealTests/PriorityQueueTest/SingleItemQueueTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-589895776">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="34" />
+          <entry key="java" value="7114" />
+          <entry key="xml" value="79" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="7114" />
+          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="XML" value="79" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="83" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="83" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestLargeQueueTestCases.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestSetupTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestSingleItemQueueTestCases.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="17" selection-start-line="10" selection-end-line="13" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jsf/Commands/CommandProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-13">
+              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RealTests/BasicMethodsTest/StudentTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RealTests/BasicMethodsTest/PriorityQueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RealTests/PriorityQueueTest/SetupTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jsf/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jsf/PriorityQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../junit5-jupiter-starter-gradle" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/PriorityQueueTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestPriorityQueueTest/TestEmptyQueueTestCases.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DuplicatesQueueTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PriorityQueueTest/DuplicatesQueueTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PriorityQueueTest/TwoItemQueueTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PriorityQueueTest/SingleItemQueueTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PriorityQueueTest/EmptyQueueTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PriorityQueueTest/LargeQueueTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestPriorityQueueTest/TestSetupTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestPriorityQueueTest/TestDuplicateTestCases.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestPriorityQueueTest/TestLargeQueueTestCases.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestPriorityQueueTest/TestSingleItemQueueTestCases.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestPriorityQueueTest/TestTwoItemQueueTestCases.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jsf/TCommands/TCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jsf/TCommands/TCommandProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jsf/TCommands/TReprioritizeCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jsf/TCommands/TCommandResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jsf/TCommands/TAddCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jsf/TCommands/TRemoveItemCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jsf/TCommands/TPollCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jsf/Driver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTheTests/TestTwoItemQueueTestCases.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestTwoItemQueueTestCases.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jsf/Commands/CommandResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jsf/Commands/PollCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jsf/Commands/RemoveCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jsf/Commands/AddCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jsf/Commands/ReprioritizeCommand.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CommandTests/CommandTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTheTests/TestCommandTests/TestCommandTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestEmptyQueueTestCases.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestLargeQueueTestCases.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jsf/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jsf/PriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jsf/Commands/CommandProcessor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BasicMethodsTest/PriorityQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PriorityQueueTest/SetupTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestSetupTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BasicMethodsTest/StudentTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RealTests/BasicMethodsTest/StudentTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestSingleItemQueueTestCases.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="948" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Assignment2_Maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2_Maven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment2_Maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2_Maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment2_Maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2_Maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment2_Maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2_Maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment2_Maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2_Maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jsf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment2_Maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2_Maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jsf" type="462c0819:PsiDirectoryNode" />
+              <item name="Commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment2_Maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2_Maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment2_Maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2_Maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment2_Maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2_Maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="RealTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment2_Maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2_Maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestTheTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment2_Maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2_Maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestTheTests" type="462c0819:PsiDirectoryNode" />
+              <item name="TestPriorityQueueTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537924145430" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Clyste\Desktop\AdvancedOOP\Repo\Assignment2_Maven\target" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Clyste\Desktop\AdvancedOOP\Repo\Assignment2_Maven\src\test\java" />
+      <recent name="C:\Users\Clyste\Desktop\AdvancedOOP\Repo\Assignment2_Maven\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestTheTests in Assignment2_Maven">
+    <configuration name="RealTests in Assignment2_Maven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment2_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RealTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RealTests" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealTests.CommandTests in Assignment2_Maven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment2_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RealTests.CommandTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RealTests.CommandTests" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealTests.PriorityQueueTest in Assignment2_Maven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment2_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RealTests.PriorityQueueTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RealTests.PriorityQueueTest" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTheTests in Assignment2_Maven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment2_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestTheTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestTheTests" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTheTests.TestPriorityQueueTest in Assignment2_Maven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment2_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestTheTests.TestPriorityQueueTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestTheTests.TestPriorityQueueTest" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.RealTests.PriorityQueueTest in Assignment2_Maven" />
+      <item itemvalue="JUnit.RealTests.CommandTests in Assignment2_Maven" />
+      <item itemvalue="JUnit.TestTheTests in Assignment2_Maven" />
+      <item itemvalue="JUnit.TestTheTests.TestPriorityQueueTest in Assignment2_Maven" />
+      <item itemvalue="JUnit.RealTests in Assignment2_Maven" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestTheTests in Assignment2_Maven" />
+        <item itemvalue="JUnit.RealTests in Assignment2_Maven" />
+        <item itemvalue="JUnit.TestTheTests.TestPriorityQueueTest in Assignment2_Maven" />
+        <item itemvalue="JUnit.RealTests.PriorityQueueTest in Assignment2_Maven" />
+        <item itemvalue="JUnit.RealTests.CommandTests in Assignment2_Maven" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4914e554-1f88-42a9-a571-2e1f99cc33c1" name="Default Changelist" comment="" />
+      <created>1537833645156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537833645156</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CommandTests_in_Assignment2_Maven - 2018.09.25 at 11h 11m 51s.xml">
+      <configuration name="CommandTests in Assignment2_Maven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandTests_in_Assignment2_Maven - 2018.09.25 at 11h 12m 18s.xml">
+      <configuration name="CommandTests in Assignment2_Maven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandTests_in_Assignment2_Maven - 2018.09.25 at 11h 51m 42s.xml">
+      <configuration name="CommandTests in Assignment2_Maven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasicMethodsTest_in_Assignment2_Maven - 2018.09.25 at 12h 02m 42s.xml">
+      <configuration name="BasicMethodsTest in Assignment2_Maven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandTests_in_Assignment2_Maven - 2018.09.25 at 12h 02m 46s.xml">
+      <configuration name="CommandTests in Assignment2_Maven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PriorityQueueTest_in_Assignment2_Maven - 2018.09.25 at 12h 02m 50s.xml">
+      <configuration name="PriorityQueueTest in Assignment2_Maven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTheTests_in_Assignment2_Maven - 2018.09.25 at 12h 03m 01s.xml">
+      <configuration name="TestTheTests in Assignment2_Maven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTheTests_TestPriorityQueueTest_in_Assignment2_Maven - 2018.09.25 at 12h 03m 11s.xml">
+      <configuration name="TestTheTests.TestPriorityQueueTest in Assignment2_Maven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RealTests_in_Assignment2_Maven - 2018.09.25 at 15h 14m 36s.xml">
+      <configuration name="RealTests in Assignment2_Maven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTheTests_in_Assignment2_Maven - 2018.09.25 at 17h 23m 02s.xml">
+      <configuration name="TestTheTests in Assignment2_Maven" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2574899" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4483986" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985765" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3291815" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/jsf/Commands/RemoveItemCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/PriorityQueueTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/PriorityQueueTest/DuplicatesQueueTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/RealTests/PriorityQueueTest/EmptyQueueTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RealTests/PriorityQueueTest/LargeQueueTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RealTests/PriorityQueueTest/SingleItemQueueTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PriorityQueueTest/TwoItemQueueTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/jsf/TCommands/TCommandSingleton.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/jsf/Commands/AddItemCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/jsf/Commands/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestDuplicateTestCases.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestTwoItemQueueTestCases.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/jsf/Commands/CommandResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jsf/Commands/PollCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jsf/Commands/RemoveCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jsf/Commands/AddCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jsf/Commands/ReprioritizeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestEmptyQueueTestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RealTests/CommandTests/CommandTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="44" selection-start-line="30" selection-start-column="24" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestTheTests/TestCommandTests/TestCommandTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestLargeQueueTestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestSetupTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestTheTests/TestPriorityQueueTest/TestSingleItemQueueTestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RealTests/BasicMethodsTest/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RealTests/BasicMethodsTest/PriorityQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RealTests/PriorityQueueTest/SetupTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jsf/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jsf/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="17" selection-start-line="10" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jsf/Commands/CommandProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Assignment2_Maven</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.291954" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apiguardian:apiguardian-api:1.0.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
